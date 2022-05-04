@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana,Arial,sans-serif;
     font-size: 12px;
@@ -8,7 +12,7 @@ header {
 }
 
 .caixa{
-    display: block;
+   
 }
 
 nav li{
@@ -26,12 +30,16 @@ nav a:hover{
     text-decoration: underline;
 }
 
+.logout {
+    
+    margin-left: 400px;
+}
+
 .logohome {
     height: 25px;
     margin-left: 12%;
 }
 
 body {
-    background-color: #d9e6f7
-    ;
+    background-color: #d9e6f7;
 }
