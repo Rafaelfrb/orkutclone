@@ -1,42 +1,47 @@
-/* {
-    box-sizing: border-box;
-}*/
-
 html {
     font-family: Verdana,Arial,sans-serif;
 }
-
 
 .item1 { 
     grid-area: header;
     background-color: #5e9dd2;
 }
+
 .item2 { 
     grid-area: menu;
     background-color: #FFFFFF;
     width: 150px;
     margin-left: 10%;
-    height: 300px;
+    height: 330px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
 }
 
 .item3{
     grid-area: main;
     background-color: #FFFFFF;
     width: 550px;
-    height: 300px;
+    height: 330px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
 }
 
 .item4 { 
     grid-area: right;
     background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
     margin-right: 30%;
 }
+
 .item5 { 
     grid-area: footer;
     text-align: center;
     background-color: #bccdea;
     padding: 3px;
     width: 550px;
+    border: 2px solid #bccdea;
+    border-radius: 5px;
 }
 
 .grid-container {
@@ -85,6 +90,7 @@ nav a:hover{
 .profilepic {
     width: 150px;
     height: 150px;
+    margin-top: 10px;
 }
 
 .menu {
@@ -112,14 +118,34 @@ strong {
     font-size: 13px;
 }
 
+.separator {
+    width: 100%;
+    border-bottom: 1px solid #d9e6f7;
+    margin: 5px 0;
+}
+
 .friends {
     margin-bottom: 100px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .communities {
-    margin-bottom: 100px;;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -20px;
 }
 
+.comunidadepic{
+    width: 125px;
+    height: 125px;
+    margin-left: 40px;
+}
+
+.comunidadenome{
+    font-size: 12px;
+    text-align: center;
+}
 /*footer{
     text-align: center;
     display: inline-block;
