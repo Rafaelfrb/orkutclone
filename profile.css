@@ -22,21 +22,21 @@ html {
 .item3{
     grid-area: main;
     background-color: #FFFFFF;
-    width: 500px;
+    width: 550px;
     height: 300px;
 }
 
 .item4 { 
     grid-area: right;
     background-color: #FFFFFF;
-    margin-right: 20%;
+    margin-right: 30%;
 }
 .item5 { 
     grid-area: footer;
     text-align: center;
     background-color: #bccdea;
     padding: 3px;
-    width: 530px;
+    width: 550px;
 }
 
 .grid-container {
@@ -87,6 +87,12 @@ nav a:hover{
     height: 150px;
 }
 
+.menu {
+    font-size: 12px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
 .welcome{
     font-size: 30px;
 }
@@ -98,11 +104,20 @@ nav p{
 
 .centertext{
     font-size: 12px;
+    margin-top: 30px;
 }
 
 strong {
     font-weight: bold;
     font-size: 13px;
+}
+
+.friends {
+    margin-bottom: 100px;
+}
+
+.communities {
+    margin-bottom: 100px;;
 }
 
 /*footer{
@@ -118,12 +133,3 @@ strong {
     font-size: 10px;
 }
 
-/*body {
-    font-size: 12px;
-}
-
-
-
-.caixa{
-   
-}*/
