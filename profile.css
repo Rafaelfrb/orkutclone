@@ -66,6 +66,8 @@ html {
     height: 25px;
     margin-left: 2%;
     margin-right: 10%;
+    margin-bottom: 3px;
+    margin-top: 3px;
 }
 
 nav li{
@@ -168,14 +170,6 @@ strong {
     font-size: 12px;
     text-align: center;
 }
-/*footer{
-    text-align: center;
-    display: inline-block;
-    background-color: #bccdea;
-    width: 65%;
-    margin-left: ;
-    padding: 3px;
-}*/
 
 .copyright {
     font-size: 10px;
